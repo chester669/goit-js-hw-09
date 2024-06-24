@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img:hover,
+img:focus {
+  width: 376px;
+  height: 208px;
+  display: block;
+}
