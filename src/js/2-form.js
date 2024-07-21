@@ -26,7 +26,11 @@ form.addEventListener('submit', evt => {
   if (formData.email === '' || formData.message === '') {
     alert('Fill please all fields');
     return;
-  } else localStorage.removeItem(localStorageKey);
+  }
+
+  console.log(formData);
+
+  localStorage.removeItem(localStorageKey);
   form.reset();
   formData.email = '';
   formData.message = '';
